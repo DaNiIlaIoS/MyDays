@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        resultLabel.text = "Hello"
         resultButton.layer.cornerRadius = 12
         datePicker.locale = Locale(identifier: "ru_RU")
     }
